@@ -2,7 +2,7 @@
 
 > A responsive, custom-built portfolio showcasing my journey as a Full-Stack Software & Data Engineer.
 
-🌍 **Live Site:** [View the Live Portfolio]((https://phaphamaniportfolio.netlify.app/)
+🌍 **Live Site:** https://phaphamaniportfolio.netlify.app/
 
 ## 📖 About This Project
 This repository contains the source code for my personal portfolio website. It was built from scratch without relying on heavy CMS platforms, designed to be lightweight, fully responsive, and to clearly demonstrate my frontend development skills alongside my backend and data science projects.
