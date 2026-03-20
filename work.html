@@ -1,182 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Work - Phaphamani Zoneleni</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Work | Phaphamani Zoneleni</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="work.html" class="active">Work</a>
+        <a href="contact.html">Contact</a>
+    </nav>
 
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
-      crossorigin="anonymous"
-    />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@500;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles/portfolio.css" />
+    <div class="content-container">
+        
+        <div class="work-header">
+            <h1 class="section-title">Featured Projects</h1>
+            <p class="section-subtitle">A collection of full-stack applications and predictive data models.</p>
+        </div>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://kit.fontawesome.com/ddc3ee268a.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
-  <body>
-    <div class="container">
-      <nav class="d-flex justify-content-between">
-        <ul>
-          <li>
-            <a href="/" title="Homepage"> Home</a>
-          </li>
-          <li>
-            <a href="/about.html" title="About Phaphamani"> About</a>
-          </li>
-          <li class="active">
-            <a href="/work.html" title="Phaphamani's work"> Work</a>
-          </li>
-          <li>
-            <a href="/contact.html" title="Contact Phaphamani"> Contact</a>
-          </li>
-        </ul>
-      </nav>
+        <div class="projects-grid">
+
+            <div class="project-card">
+                <img src="pictures/clinic_optimizer.png" alt="ER Clinic AI Optimizer Dashboard" loading="lazy">
+                <h3>ER Clinic AI Optimizer</h3>
+                <p>A live predictive machine learning dashboard built to estimate patient wait times using Random Forest regression and historical data.</p>
+                <div class="tech-tags">
+                    <span>Python</span> <span>Scikit-Learn</span> <span>Streamlit</span>
+                </div>
+                <a href="YOUR_STREAMLIT_LINK_HERE" target="_blank" class="btn btn-branding">Launch AI Predictor</a>
+            </div>
+
+            <div class="project-card">
+                <img src="pictures/commuter_map.png" alt="Cape Town Commuter Map" loading="lazy">
+                <h3>Commuter Route Engine</h3>
+                <p>An interactive spatial mapping application integrating OpenStreetMap Nominatim and OSRM REST APIs for dynamic route calculation.</p>
+                <div class="tech-tags">
+                    <span>JavaScript (ES6+)</span> <span>REST APIs</span> <span>Leaflet.js</span>
+                </div>
+                <a href="YOUR_GITHUB_LINK_HERE" target="_blank" class="btn btn-branding">View Source Code</a>
+            </div>
+
+            <div class="project-card">
+                <img src="pictures/mzansi_med.png" alt="Mzansi Med-Ward EHR" loading="lazy">
+                <h3>Mzansi Med-Ward EHR</h3>
+                <p>A responsive Electronic Health Record (EHR) frontend prototype featuring complex state management and role-based access control.</p>
+                <div class="tech-tags">
+                    <span>React.js</span> <span>CSS Grid</span> <span>HTML5</span>
+                </div>
+                <a href="YOUR_NETLIFY_LINK_HERE" target="_blank" class="btn btn-branding">View Live App</a>
+            </div>
+
+        </div>
     </div>
-    <div class="content-container container">
-      <div class="content">
-        <h1 class="mb-5 text-center">Take a look at what I've been working on!</h1>
 
-        <div class="row">
-
-          <div class="col-md-6 mb-5">
-            <img
-              src="pictures/mzansi-med-ward.png"
-              class="img-fluid mb-3 rounded shadow-sm border project-img"
-              alt="Mzansi Med-Ward EHR Dashboard"
-            />
-            <h3 class="text-center m-0 mb-3">Mzansi Med-Ward (EHR Prototype)</h3>
-            <div class="text-start text-muted px-3">
-              <p><strong>Focus:</strong> Frontend Architecture & State Management</p>
-              <p><strong>Stack:</strong> React, Context API, Tailwind CSS, Vite</p>
-              <p>Architecting a scalable state management system to link automated clinical timelines, an interactive e-MAR, and role-based access control without relying on a backend database.</p>
-            </div>
-            <div class="d-flex justify-content-center gap-3 mt-4">
-              <a href="https://med-ehr.netlify.app/" target="_blank" class="btn btn-branding btn-sm">Live App</a>
-              <a href="https://github.com/Wallflower65/mzansi-med-ward" target="_blank" class="btn btn-branding-outline btn-sm">Source Code</a>
-            </div>
-          </div>
-
-          <div class="col-md-6 mb-5">
-            <img
-              src="pictures/clinic-wait.png"
-              class="img-fluid mb-3 rounded shadow-sm border project-img"
-              alt="ER Clinic Optimizer preview"
-            />
-            <h3 class="text-center m-0 mb-3">ER Clinic AI Optimizer</h3>
-            <div class="text-start text-muted px-3">
-              <p><strong>Focus:</strong> Machine Learning & Data Visualization</p>
-              <p><strong>Stack:</strong> Python, Scikit-Learn, Pandas, Streamlit, Plotly</p>
-              <p>A predictive AI model utilising a Random Forest Regressor to estimate patient wait times based on historical triage and staffing data. Visualized live using a Streamlit Python web server.</p>
-            </div>
-            <div class="d-flex justify-content-center gap-3 mt-4">
-              <a href="<a href="https://clinic-optimser--visualiser-byrpmf3uemuyhmyri2yslf.streamlit.app/" target="_blank" class="btn btn-branding">Launch AI Predictor</a>" target="_blank" class="btn btn-branding btn-sm">Live Dashboard</a>
-              <a href="https://github.com/Wallflower65/Clinic-Optimser-Visualiser" target="_blank" class="btn btn-branding-outline btn-sm">Source Code</a>
-            </div>
-          </div>
-
-          <div class="col-md-6 mb-5">
-            <img
-              src="pictures/air-quality.png"
-              class="img-fluid mb-3 rounded shadow-sm border project-img"
-              alt="Air Quality ETL Pipeline"
-            />
-            <h3 class="text-center m-0 mb-3">Air Quality ETL Pipeline</h3>
-            <div class="text-start text-muted px-3">
-              <p><strong>Focus:</strong> Backend Data Engineering & Automation</p>
-              <p><strong>Stack:</strong> Python, SQLite, REST APIs, Streamlit Cloud</p>
-              <p>An automated ETL (Extract, Transform, Load) pipeline that hits a live weather API, cleans the JSON data via Pandas, loads it into a local SQL database, and serves it globally.</p>
-            </div>
-            <div class="d-flex justify-content-center gap-3 mt-4">
-              <a href="https://cape-town-air-quality-dashboard-s8yyjmgsdcbh6pajyaxnzd.streamlit.app/" target="_blank" class="btn btn-branding btn-sm">Live Dashboard</a>
-              <a href="https://github.com/Wallflower65/air-quality-etl-pipeline" target="_blank" class="btn btn-branding-outline btn-sm">Source Code</a>
-            </div>
-          </div>
-
-          <div class="col-md-6 mb-5">
-            <img
-              src="pictures/hamba.png"
-              class="img-fluid mb-3 rounded shadow-sm border project-img"
-              alt="Cape Town Commuter Map preview"
-            />
-            <h3 class="text-center m-0 mb-3">Cape Town Commuter Routing</h3>
-            <div class="text-start text-muted px-3">
-              <p><strong>Focus:</strong> API Integration & Dynamic DOM Manipulation</p>
-              <p><strong>Stack:</strong> HTML/CSS, Vanilla JavaScript, Leaflet.js, OSRM API</p>
-              <p>A mapping application that calculates and draws optimal driving routes across Cape Town. Handled complex asynchronous JavaScript Promises to retrieve and map GeoJSON routing data.</p>
-            </div>
-            <div class="d-flex justify-content-center gap-3 mt-4">
-              <a href="https://hamba-cape-town.netlify.app/" target="_blank" class="btn btn-branding btn-sm">Live App</a>
-              <a href="https://github.com/Wallflower65/hamba-cape-town" target="_blank" class="btn btn-branding-outline btn-sm">Source Code</a>
-            </div>
-          </div>
-          
-        </div>
-      </div>
-    </div>
-    
-    <footer class="container">
-      <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
-        <div>
-          <h3>Work Inquiry</h3>
-          <p class="text-muted">Let's work together</p>
-        </div>
-        <div>
-          <a
-            href="/contact.html"
-            class="btn btn-branding mt-3"
-            title="Contact Phaphamani"
-          >
-            Contact me
-          </a>
-        </div>
-      </div>
-      <div class="d-flex justify-content-center mb-5">
-        <a
-          href="mailto:phaphamanizoneleni@gmail.com"
-          class="email-link"
-          title="Email Phaphamani"
-        >
-          phaphamanizoneleni@gmail.com
-        </a>
-      </div>
-      <div class="social-links d-flex justify-content-center">
-        <a
-          href="https://github.com/Wallflower65"
-          target="_blank"
-          title="GitHub Profile"
-        >
-          <i class="fab fa-github"></i>
-        </a>
-        <a
-          href="https://www.linkedin.com/in/phaphamani-zoneleni-28181a20b"
-          target="_blank"
-          title="LinkedIn Profile"
-        >
-          <i class="fab fa-linkedin"></i>
-        </a>
-      </div>
-      <p class="text-center mt-5">
-        ✌️ This website was coded by Phaphamani Zoneleni, and is
-        <a href="https://github.com/Wallflower65/portfolio-project" target="_blank">
-          open-sourced
-        </a>
-      </p>
+    <footer>
+        <p>&copy; 2024 Phaphamani Zoneleni</p>
     </footer>
-  </body>
+</body>
 </html>
