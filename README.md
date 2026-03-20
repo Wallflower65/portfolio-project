@@ -1,31 +1,22 @@
-# Phaphamani's Front-End Portfolio 👩🏾‍💻✨
+# Phaphamani's Developer Portfolio 🚀
 
-Welcome to the repository for my personal web developer portfolio! 
+> A responsive, custom-built portfolio showcasing my journey as a Full-Stack Software & Data Engineer.
 
-As a professional nurse transitioning into software development, I built this portfolio to showcase my ability to combine problem-solving and technical skills to create clean, user-friendly, and responsive web applications.
+🌍 **Live Site:** [View the Live Portfolio]((https://phaphamaniportfolio.netlify.app/)
 
-🔗 **[View the Live Portfolio Here](https://wallflower65.github.io/portfolio-project/)**
+## 📖 About This Project
+This repository contains the source code for my personal portfolio website. It was built from scratch without relying on heavy CMS platforms, designed to be lightweight, fully responsive, and to clearly demonstrate my frontend development skills alongside my backend and data science projects.
 
 ## 🛠️ Built With
+- **HTML5** for semantic, accessible structure.
+- **CSS3 (Custom CSS Grid & Flexbox)** for modern, responsive layouts and micro-interactions.
+- **Bootstrap 5** for standardized container alignment and component structure.
+- **FontAwesome** for lightweight, scalable iconography.
+- **Google Fonts** (Playfair Display & Poppins) for modern typography.
+- Deployed continuously via **Netlify**.
 
-This project was built from scratch to demonstrate solid foundational front-end skills without relying heavily on templates.
+## ✨ Key Features
+- **Responsive Design:** Fluidly adapts to mobile, tablet, and desktop screens using custom CSS Grid `auto-fill` properties.
+- **Modern UI/UX:** Implements CSS variables for consistent theming, smooth scrolling, and frosted-glass (`backdrop-filter`) visual effects.
+- **Project Showcase:** A dedicated grid layout highlighting both the *problem* and the *solution* for each full-stack and machine learning project.
 
-* **HTML5:** Semantic markup for accessibility and SEO.
-* **CSS3:** Custom styling, variables, glassmorphism effects, and pure CSS animated backgrounds.
-* **Bootstrap 5:** For a responsive, mobile-first grid system.
-* **Formspree:** Backend API integration for a functional, secure contact form without exposing my personal email.
-
-## 🌟 Key Features
-
-* **Fully Responsive Design:** Adapts flawlessly across desktop, tablet, and mobile devices.
-* **Modern UI/UX:** Features a soft, animated pure-CSS background, glassmorphism card layouts, and subtle hover animations to indicate interactivity.
-* **Live Project Integration:** Direct links to live deployments and source code for my top web applications, including the Nursing Mnemonic Maker, Cape Town Tourist App, and Weather App.
-* **Functional Contact Form:** Visitors can send messages directly to my inbox without needing to open a native email client.
-
-## 🚀 Running Locally
-
-If you would like to run this project on your local machine:
-
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/Wallflower65/portfolio-project.git](https://github.com/Wallflower65/portfolio-project.git)
