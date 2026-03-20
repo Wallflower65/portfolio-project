@@ -155,6 +155,8 @@ body {
     border: 1px solid rgba(0, 0, 0, 0.05);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
     transition: all 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
 }
 
 .project-card:hover {
@@ -215,13 +217,38 @@ body {
     font-weight: 600;
 }
 
-.project-card {
-    display: flex;
-    flex-direction: column;
-}
-
 .project-card .btn {
     margin-top: auto;
     text-align: center;
     display: inline-block;
+}
+
+.project-links {
+    display: flex;
+    gap: 15px;
+    margin-top: auto;
+}
+
+.project-links .btn {
+    flex: 1;
+    text-align: center;
+    padding: 10px 15px;
+    font-size: 14px;
+    margin-top: 0;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.btn-outline {
+    background: transparent;
+    border: 2px solid var(--branding-color);
+    color: var(--branding-color);
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-outline:hover {
+    background: var(--branding-color);
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(38, 128, 235, 0.4);
 }
