@@ -388,3 +388,29 @@ footer .social-links a:hover {
         margin-top: 30px;
     }
 }
+
+.btn-branding {
+    background-color: var(--branding-color) !important;
+    border: 2px solid var(--branding-color) !important;
+    color: white !important;
+    border-radius: 6px !important;
+    padding: 10px 15px !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+}
+
+.btn-outline {
+    background-color: transparent !important;
+    border: 2px solid var(--branding-color) !important;
+    color: var(--branding-color) !important;
+    border-radius: 6px !important;
+    padding: 10px 15px !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+}
+
+.projects-grid {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)) !important;
+    gap: 40px !important;
+}
